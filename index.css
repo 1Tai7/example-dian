@@ -19,7 +19,7 @@ nav img {
 }
 .container {
   display: flex;
-  height: 100vh;
+  height: 80vh;
   justify-content: center;
   padding-top: 3rem;
 }
@@ -52,9 +52,7 @@ nav img {
   padding: 0.5rem 2rem;
   margin-top: 1rem;
 }
-.content-container-rigth {
-  margin-top: 3rem;
-}
+
 .content-container-rigth div {
   display: flex;
   align-items: center;
