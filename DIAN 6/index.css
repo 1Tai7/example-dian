@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  margin-inline: 7rem;
+}
+nav {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  padding-left: 4rem;
+}
+nav h1 {
+  color: #532477;
+  font-weight: 800;
+}
+nav img {
+  height: 1.5rem;
+  padding-left: 1rem;
+}
+.container {
+  display: flex;
+}
+.container .info-left-container {
+  width: 37%;
+  margin-right: 2rem;
+}
+.container .info-left-container h2 {
+  font-weight: 800;
+  font-size: xx-large;
+  color: #02b0ef;
+  margin-block: 1rem;
+}
+.container .info-left-container p {
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+.container .info-left-container .instructions-paragraph {
+  color: #6f309f;
+}
+.container .options-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 85vh;
+  width: 30rem;
+}
+
+.container .options-right-container div {
+  display: flex;
+  align-items: center;
+}
+.container .options-right-container .title-options-year h3 {
+  margin-right: 1rem;
+}
+.container .options-right-container h3 {
+  font-size: x-large;
+}
+
+.container .options-right-container input:checked {
+  border: none;
+}
+.container .options-right-container input {
+  margin-right: 1rem;
+}
+.container .options-right-container label {
+  font-weight: normal;
+}
+
+.container .options-right-container button {
+  height: 2rem;
+  width: 8rem;
+  font-size: medium;
+  font-weight: 500;
+  border: none;
+  border-radius: 17px;
+  background-color: #02b0ef;
+  color: #f0f8ff;
+  cursor: pointer;
+  margin-top: 1rem;
+}
