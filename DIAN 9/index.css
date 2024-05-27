@@ -21,41 +21,41 @@ nav img {
   padding-left: 1rem;
 }
 /* #02b0ef */
-section {
+.help-us-improve-container {
   height: 90vh;
   position: absolute;
   left: 8%;
   top: 6rem;
 }
-section h2 {
+.help-us-improve-container h2 {
   color: #6f309f;
   font-size: 4rem;
   font-weight: 800;
   width: 82%;
 }
-section h3,
+.help-us-improve-container h3,
 p,
 span {
   color: #02b0ef;
 }
-section h3 {
+.help-us-improve-container h3 {
   padding-block: 1rem;
   font-size: 1.8rem;
 }
-section p,
+.help-us-improve-container p,
 span {
   width: 70%;
   line-height: 26px;
   font-size: x-large;
   padding-bottom: 1rem;
 }
-section div {
+.help-us-improve-container div {
   display: flex;
   justify-content: space-evenly;
   height: 7rem;
   align-items: center;
 }
-section button {
+.help-us-improve-container button {
   background-color: #6f309f;
   color: #fff;
   border: none;
