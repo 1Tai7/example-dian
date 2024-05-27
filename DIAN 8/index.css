@@ -59,37 +59,42 @@ nav img {
   position: relative;
   display: inline-block;
   list-style-type: none;
-  width: 7.2rem;
+  width: 7rem;
   height: 1rem;
   background: #35174dcc;
- 
 }
 
-.container .route-container  ol li h5{
-    color: #fff;
-    position: absolute;
-    z-index: 9999;
-}
-.container .route-container ol li:not(:last-child)::after {
- content: '';
-    position: absolute;
-    top: 50%;
-    left: calc(0%);
-    bottom: 0;
-    width: 4rem;
-    height: 4rem;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background: #02b0ef;
+ .container .route-container ol li:not(:last-child)::after {
+  content: "<h1>1</h1>";
+  position: absolute;
+  top: 50%;
+  left: calc(0%);
+  bottom: 0;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  background: #02b0ef;
+} 
+ .container .route-container ol li:not(:last-child)::after span::after{
+ position: absolute;
+ z-index: 9999;
+font-size: 20rem;
 }
 .container .route-container ol li div {
-    position: absolute;
+  position: absolute;
 
-    width: 6.5rem;
-    font-size: large;
+  width: 6.5rem;
+  font-size: large;
 
-    color: #02b0ef;
-   font-weight: 800;
+  color: #02b0ef;
+  font-weight: 800;
+}
+.container .route-container ol li span:last-child {
+  float: right;
+  font-size: xx-large;
+  font-weight: 800;
+  color: #fff;
 }
 
 .container .route-container ol li:nth-child(odd) div {
@@ -97,12 +102,9 @@ nav img {
   transform: translateY(-100%);
 }
 
-
- .container .route-container ol li:nth-child(even) div {
+.container .route-container ol li:nth-child(even) div {
   top: calc(100% + 36px);
 }
-
-
 
 .container .route-container time {
   display: block;
@@ -110,13 +112,6 @@ nav img {
   font-weight: bold;
   margin-bottom: 8px;
 }
-
-
-
-
-
-
-
 
 .container .button {
   display: flex;
