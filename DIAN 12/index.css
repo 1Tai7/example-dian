@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background-color: #6f309f;
+}
+nav {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  left: 9%;
+  position: absolute;
+}
+nav h1 {
+  font-weight: 800;
+}
+nav img {
+  height: 1.5rem;
+  padding-left: 1rem;
+}
+.congrats-container {
+  height: 83vh;
+  width: 80%;
+  position: absolute;
+  top: 6rem;
+  left: 8rem;
+  line-height: 4rem;
+}
+.congrats-container div:first-child {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+}
+.congrats-container div span {
+  color: #fff;
+  font-weight: 800;
+  font-size: 3rem;
+}
+.blue-content-container {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+.blue-content-container span {
+  color: #02b0ef !important;
+  width: 39rem;
+}
+.blue-content-container button {
+  margin-top: 2rem;
+  background-color: #02b0ef;
+  color: #ffffff;
+  border: none;
+  border-radius: 20px;
+  font-size: larger;
+  font-weight: 500;
+  padding-block: 0.5rem;
+  padding-inline: 2rem;
+  cursor: pointer;
+}
